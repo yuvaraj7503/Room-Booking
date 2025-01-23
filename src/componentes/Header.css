@@ -1,0 +1,33 @@
+.texts{
+    color: #000000;
+    font-size: 14px;
+    text-align: center;
+    text-shadow: #dad7d7;
+    margin-top: 40px;
+    
+}
+.book{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 30px;
+    width: 700px;
+    margin-left: 25%;
+    
+    
+
+}
+.book input {
+       
+    padding: 20px;
+
+}
+.book select{
+   padding: 20px; 
+}
+.book button{
+    padding: 10px;
+    background-color: rgb(13, 13, 14);
+    color: #ffffff;
+    margin-left: 3%;
+    width: 150px;
+    
+}

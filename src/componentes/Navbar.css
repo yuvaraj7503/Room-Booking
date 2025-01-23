@@ -1,0 +1,56 @@
+header{
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo{
+    font-size: 22px;
+    color: #000000;
+    font-weight: 700;
+    margin-left: 15px;
+
+
+}
+
+.navbar a{
+    position: relative;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 500;
+    margin-left: 70px;
+    font-size: medium;
+    
+
+}
+.header button{
+    background-color:transparent;
+    position: relative;
+    font-size: 15px;
+    color: #1f1d1d;
+    font-weight: 200;
+    padding: 10px;
+    
+
+}
+.navbar a::before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #f10707;
+    transition: .3s;
+    }
+    .navbar a:hover::before{
+        width: 100%;
+    }
+
